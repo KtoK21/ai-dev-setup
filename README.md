@@ -31,6 +31,14 @@
 - **아티팩트 관리(Artifact Management)**: 구조화된 문서(계획, 작업, 워크스루)를 생성하고 유지합니다.
 - **도구 체이닝(Tool Chaining)**: 여러 저수준 도구를 결합하여 고수준 기능을 구현합니다.
 
+### 워크플로우 (Workflows)
+정의된 작업 절차를 통해 에이전트 간의 협업을 자동화합니다.
+
+- **Claude-Gemini 협업 워크플로우 (`claude-gemini-cowork.md`)**:
+  - **목적**: 기획(Gemini)과 구현(Claude)을 분리하여 품질 높은 코드 작성을 목표로 합니다.
+  - **파일 위치**: `.agent/workflows/claude-gemini-cowork.md`
+  - **사용법**: 슬래시 커맨드 `/claude-gemini-cowork`를 통해 가이드를 확인하고 프로세스를 시작합니다.
+
 ## 3. AI 어시스턴트 지침
 
 이 섹션에서는 이 레포지토리 또는 파생 레포지토리에서 작업할 때 Gemini와 Claude Code가 따라야 할 지침을 설명합니다.
