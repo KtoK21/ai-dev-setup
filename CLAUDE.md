@@ -41,3 +41,4 @@
 
 @.claude/rules/code-style.md
 @.claude/rules/security.md
+@.claude/rules/ralph-loop.md
